@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://akuru.madusanka.net/</loc>
+  <lastmod>2021-12-15T02:55:30+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://akuru.madusanka.net/converter</loc>
+  <lastmod>2021-12-22T06:50:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://akuru.madusanka.net/type</loc>
+  <lastmod>2021-12-24T11:01:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://akuru.madusanka.net/privacy</loc>
+  <lastmod>2021-12-15T02:55:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

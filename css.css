@@ -1,0 +1,199 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    @font-face {
+    font-family:noto sans sinhala;
+    font-style:normal;
+    font-weight:400;
+    src:url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.eot);
+    src:url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.eot?#iefix) format('embedded-opentype'),
+    url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.ttf) format('truetype')
+    }
+
+    :root {
+    --bg : #ffffff;
+    --color: #5f6368;
+    --btncolor:#fafafa;
+    --btntext : #5f6368;
+    --btnboader:rgb(138 141 145);
+    --btnhoverbk:#00a2ff50;
+    --fcbackground:#ffffff;
+    --fcboader:rgb(138 141 145);
+    --tgbtn:#333;
+    --sbtrak:#5f6368;
+    --thumb:#C3C3C3;
+    }
+    .dark {
+    --bg : #202124	 ;
+    --color: rgb(238, 238, 238);
+    --btncolor:#15202b;
+    --btntext :rgb(238, 238, 238) ;
+    --btnboader:rgb(138 141 145);
+    --btnhoverbk:#00a2ff50;
+    --fcbackground:#303134	;
+    --fcboader:#8899ac ;
+    --tgbtn:rgb(250 250 250);
+    --sbtrak:#737373;
+    --thumb:#555;  
+    }
+    
+    :focus{
+     outline: none;
+    } 
+
+    ::-webkit-scrollbar {
+     width: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background:var(--sbtrak) ; 
+    }
+ 
+/* Handle */
+   ::-webkit-scrollbar-thumb {
+   background:var(--thumb) ; 
+   }
+
+/* Handle on hover */
+   ::-webkit-scrollbar-thumb:hover {
+   background:var(--thumb) ; 
+   }
+           
+    body { 
+    font-family: noto sans sinhala, Inter, sans-serif ;
+    font-weight:400;
+    background-color: var(--bg);
+    border-top: #00a2ff 5px solid;
+    font-size: 15px;
+    color: var(--color);
+        
+    }
+    
+    .btn {
+    background-color: var(--btncolor) ;
+    border-color:var(--btnboader) ;
+    color:var(--btntext);
+    border-radius: 5px; 
+    font-size: 14px;  
+    }
+   .btn:hover { 
+    background-color:var(--btnhoverbk) ;
+    border-color:var(--btnboader) ;
+    color: var(--btntext);
+    border-radius: 5px; 
+    }
+      
+    .form-control {
+    background-color:var(--fcbackground) ; 
+    color: var(--color);
+    font-family: noto sans sinhala, Inter, sans-serif ;
+    font-size: 17px;
+    border: 0.5mm solid var(--fcboader) ;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 5px;
+    height: 210px; 
+   
+    
+    }
+
+    .form-control:hover { 
+    border: 0.1mm solid var(--fcboader) ;
+    color: var(--color);
+    background-color:var(--fcbackground) ;
+   
+   
+    }
+
+    .form-control:visited,
+    .form-control:focus
+    {
+        background-color:var(--fcbackground) ;
+        color: var(--color);
+      }
+
+    .popover{
+    font-family: noto sans sinhala, Inter, sans-serif ;
+    background-color: #8899ac ;
+    border: 0.5mm solid var(--fcboader) ;
+    opacity: .99;  
+    }
+
+
+    .row { 
+        margin: auto 14%;
+
+      }
+
+    .modal-body, .modal-header, .modal-footer{
+    background-color:var(--fcbackground) ; 
+    font-family: noto sans sinhala, Inter, sans-serif ;
+    }
+
+    .h1{
+    font-weight: 200;
+    font-size: 18px ;
+    }
+
+    .h2{
+    font-weight: 150;
+    font-size: 8px;
+    }
+
+    .mt-3 {
+    font-family: inter ;
+    font-size: 11px;
+    }
+
+    p{
+    font-family: inter ;
+    font-size: 13px;
+    }
+
+    h2{
+    font-size: 15px;
+    }
+    
+    .float{
+    background-color: var(--tgbtn);
+    position:fixed;
+    width:35px;
+    height:35px;
+    bottom:40px;
+    right: 40px;
+    border-radius:50px;
+    text-align:center;
+    border: 2mm solid var(--btnboader) ;
+    
+    }
+    .homeb {
+    margin: auto 5%; 
+    }
+
+    @media screen and (max-width:900px) {
+
+         
+    .row { 
+    margin: 0em;
+    
+    }
+
+    body {
+        overflow-x: hidden;
+        
+    }
+        
+    .h1{
+    font-size: 1.5rem ;
+    }    
+
+    .homeb {
+        margin: auto ;
+        }
+
+    
+ }
+
