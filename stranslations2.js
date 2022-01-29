@@ -1,11 +1,4 @@
-/*
-This translation script is developed by UCSC language research center.
-Translation scheme is changed by me (http://prabhashlk.com/) for easy use.
-Translation scheme is based on Helakuru mobile keyboard scheme.
-The only difference between Helakuru scheme and this scheme is Yansaya.
-Ex : kYa = ක්‍ය
-Some rarely used Sinhala letters has been removed.
-*/
+
 
 var text;
 var nVowels;
