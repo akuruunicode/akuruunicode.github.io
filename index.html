@@ -1,90 +1,85 @@
+
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title> Unicode to FM Abaya - Real Time Sinhala Unicode Converter  </title>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="favicon.png"/>
-                <meta charset="utf-8">
-		<link rel="canonical" href="https://unicode.madusanka.net" />
-		<meta name="HandheldFriendly" content="True" />
-                <meta name="theme-color" content="#303134">
-		<meta property="og:title" content="Akuru Unicode To FM Converter">
-                <meta property="og:site_name" content="Akuru Unicode To FM Converter">
-                <meta property="og:url" content="https://unicode.madusanka.net/type">
-                <meta property="og:description" content="Akuru Sinhala realtime Sinhala Typeing Tool">
-                <meta property="og:type" content="business.business">
-                <meta property="og:image" content="https://unicode.madusanka.net/og.png">
+<head>
+	<title>Unicode to FM Abaya - Real Time Sinhala Unicode Converter</title>
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="favicon.png" rel="shortcut icon">
+	<meta charset="utf-8">
+	<link href="https://unicode.madusanka.net" rel="canonical">
+	<meta content="True" name="HandheldFriendly">
+	<meta content="#303134" name="theme-color">
+	<meta content="Akuru Unicode To FM Converter" property="og:title">
+	<meta content="Akuru Unicode To FM Converter" property="og:site_name">
+	<meta content="https://unicode.madusanka.net/type" property="og:url">
+	<meta content="Akuru Sinhala realtime Sinhala Typeing Tool" property="og:description">
+	<meta content="business.business" property="og:type">
+	<meta content="https://unicode.madusanka.net/og.png" property="og:image">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css.css" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics -->
 
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css.css">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123743167-5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123743167-5">
+	</script>
+	<script>
+	 window.dataLayer = window.dataLayer || [];
+	 function gtag(){dataLayer.push(arguments);}
+	 gtag('js', new Date());
 
-  gtag('config', 'UA-123743167-5');
-</script>
-
-		
+	 gtag('config', 'UA-123743167-5');
+	</script>
 </head>
 <body onload="javascript:txtBox.box1.focus();">
-		<div class="container-fluid mt-2">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h2> Sinhala Unicode Converter </h2>
-					<h1> Unicode to FMAbaya Converter </h1>
-					<div class="btn-group">
-						<a href="/" button type="button" class="btn "> Unicode To FM </a>
-						<a href="type" button type="button" class="btn "> Type In Sinhala </a>
-					</div>
+	<div class="container-fluid mt-2">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>Sinhala Unicode Converter</h2>
+				<h1>Unicode to FMAbaya Converter</h1>
+				<div class="btn-group">
+					<a class="btn" href="/" type="button">Unicode To FM</a> <a class="btn" href="type" type="button">Type In Sinhala</a>
 				</div>
 			</div>
-            </br>
-			<form name="converter">
-				<div class="row">
-					<div class="col-md-12">
-						<span><h6>Unicode</h6></span>
-						<textarea class="form-control shadow-none " onkeyup="startText();" onselect="startText();" onclick="startText();" name="unicode" rows="7"></textarea>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<span> <h6> Font </h6> </span>
-						<textarea class="form-control shadow-none " id="abhaya" name="abhaya" rows="7" style="font-family:'FMAbhaya X', FMAbhaya, sans-serif!important;"></textarea>
-						<input class="btn float-right  mt-1" type="reset" value="Reset" data-toggle="popover" data-trigger="focus" data-content=" cleared!">
-						<input id="copy" value="Copy" type="button" class="btn  mt-1" onclick="copyText()" data-toggle="popover"  data-content="Copied to clipboard."> </span>
-					</div>
-				</div>
-			</form>
-		</br>
+		</div><br>
+		<form id="converter" name="converter">
 			<div class="row">
 				<div class="col-md-12">
-				<p> <strong> Unicode to FM Abaya converter </strong> Is 100% Privacy Protected.</br> Unicode converter can translate Sinhala words to FM-Malithi ASCII and enter Unicode in iskolapotha format.  You Can Bookmark This Page Press Ctrl+D.</p>
+					<span></span>
+					<h6><span>Unicode</span></h6>
+					<textarea class="form-control shadow-none" name="unicode" onclick="startText();" onkeyup="startText();" onselect="startText();" rows="7"></textarea>
 				</div>
 			</div>
-        </div>
-	
-		<a class=" float " onclick="themeToggle()"></a>
-		
-		</a>
-	   
-		<footer class=" bg-dark mt-3">
-			<div class="container-fluid">
-				</div>
-				<div class="row">
-					<div class="col-md-12  text-center text-white my-3">
-						<a href="https://github.com/sankalk"> &copy; By sankalk </a>
-					</div>
+			<div class="row">
+				<div class="col-md-12">
+					<span></span>
+					<h6><span>Font</span></h6><span></span> 
+					<textarea class="form-control shadow-none" id="abhaya" name="abhaya" rows="7" style="font-family:'FMAbhaya X', FMAbhaya, sans-serif!important;"></textarea> <input class="btn float-right mt-1" data-content=" cleared!" data-toggle="popover" data-trigger="focus" type="reset" value="Reset"> <input class="btn mt-1" data-content="Copied to clipboard." data-toggle="popover" id="copy" onclick="copyText()" type="button" value="Copy"> 
 				</div>
 			</div>
-		</footer>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-		<script src="stranslations3.js"></script>
-		<script src="dark.js"></script>
-	</body>
+		</form><br>
+		<div class="row">
+			<div class="col-md-12">
+				<p><strong>Unicode to FM Abaya converter</strong> Is 100% Privacy Protected.<br>
+				Unicode converter can translate Sinhala words to FM-Malithi ASCII and enter Unicode in iskolapotha format. You Can Bookmark This Page Press Ctrl+D.</p>
+			</div>
+		</div>
+	</div><a class=" float" onclick="themeToggle()"></a>
+	<footer class=" bg-dark mt-3">
+		<div class="container-fluid"></div>
+		<div class="row">
+			<div class="col-md-12 text-center text-white my-3">
+				<a href="https://github.com/sankalk">&copy; By sankalk</a>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+	</script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+	</script> 
+	<script src="stranslations3.js">
+	</script> 
+	<script src="dark.js">
+	</script>
+</body>
 </html>
