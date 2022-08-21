@@ -79,7 +79,7 @@
  	background-color: var(--fcbackground);
  	color: var(--color);
  	font-family: noto sans sinhala, Inter, sans-serif;
- 	font-size: 20px;
+ 	font-size: 18px;
  	border: 0.5mm solid var(--fcboader);
  	border-radius: 5px;
  	flex-direction: column;
