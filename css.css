@@ -8,7 +8,7 @@
  	src: url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.eot?#iefix) format('embedded-opentype'), url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanssinhala/v1/NotoSansSinhala-Regular.ttf) format('truetype')
  }
  :root {
- 	--bg: #ffffff;
+ 	--bg: #fff;
  	--color: #5f6368;
  	--btncolor: #fafafa;
  	--btntext: #5f6368;
