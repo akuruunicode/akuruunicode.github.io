@@ -98,7 +98,6 @@
  }
  .popover {
  	font-family: noto sans sinhala, Inter, sans-serif;
- 	background-color: #8899ac;
  	border: 0.5mm solid var(--fcboader);
  	opacity: .99;
  }
