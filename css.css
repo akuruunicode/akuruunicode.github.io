@@ -173,7 +173,7 @@
 
 @media (min-width: 1920px) and (max-width: 2560px) {
     textarea.form-control {
-    height: 300px;
+    height: 350px;
  }
 }
 
