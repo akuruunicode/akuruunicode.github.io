@@ -121,11 +121,14 @@
  }
  p {
  	
- 	font-size: 13px;
+ 	font-size: 14px;
  }
  h2 {
  	font-size: 15px;
  }
+ a {
+    color: #ffffff;
+}
  .float {
  	background-color: var(--tgbtn);
  	position: fixed;
