@@ -150,7 +150,7 @@
 
 @media only screen and (max-width : 480px) {
   textarea.form-control {
-    height: auto;
+    height: 230px;
  }
  }
 
