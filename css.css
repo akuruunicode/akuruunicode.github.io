@@ -152,11 +152,8 @@
   textarea.form-control {
     height: auto;
  }
- 
- 
-
-    }
- @media screen and (max-width:900px) {
+ }
+ @media only screen and (max-device-width: 900px) {
   
  	.row {
  		margin: 0em;
