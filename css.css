@@ -155,7 +155,7 @@
  }
 
 
- @media (min-width : 850px) {
+ @media screen and (max-width:900px) {
   
  	.row {
  		margin: 0em;
@@ -169,9 +169,7 @@
  	.homeb {
  		margin: auto;
  	}
-  textarea.form-control {
-    height: 380px;
-}
+  
  }
 
 
