@@ -159,16 +159,5 @@
  	}
  }
 
-// Monitores
-
-
-@media Screen (min-width: 1600 px) and (max-width: 1920px)  {
-
-textarea.form-control {
-    height: 300px ;
-}
-
-
-}
 
 
