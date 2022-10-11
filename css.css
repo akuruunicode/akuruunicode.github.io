@@ -1,4 +1,5 @@
- @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
  @font-face {
  	font-family: noto sans sinhala;
  	font-style: normal;
@@ -155,3 +156,4 @@
  		margin: auto;
  	}
  }
+</style>
