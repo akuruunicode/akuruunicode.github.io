@@ -148,14 +148,14 @@
  	margin: auto 5%;
  }
 
-@media only screen and (min-width : 480px) {
+@media (min-width : 480px) {
   textarea.form-control {
     height: auto;
  }
  }
 
 
- @media only screen and (min-width : 850px) {
+ @media (min-width : 850px) {
   
  	.row {
  		margin: 0em;
