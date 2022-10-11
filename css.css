@@ -96,7 +96,7 @@
  	color: var(--color);
  }
  .popover {
- 	font-family: noto sans sinhala, Inter, sans-serif;
+ 	font-family: noto sans sinhala, sans-serif;
  	border: 0.5mm solid var(--fcboader);
  	opacity: .99;
  }
@@ -105,7 +105,7 @@
  }
  .modal-body, .modal-header, .modal-footer {
  	background-color: var(--fcbackground);
- 	font-family: noto sans sinhala, Inter, sans-serif;
+ 	font-family: noto sans sinhala, sans-serif;
  }
  h1 {
  	font-weight: 200;
@@ -116,11 +116,11 @@
  	font-size: 8px;
  }
  .mt-3 {
- 	font-family: inter;
+ 	
  	font-size: 12px;
  }
  p {
- 	font-family: inter;
+ 	
  	font-size: 13px;
  }
  h2 {
