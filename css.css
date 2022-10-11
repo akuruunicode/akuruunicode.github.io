@@ -162,38 +162,13 @@
 // Monitores
 
 
-@media (min-width: 1920px)  {
+@media Screen (min-width: 1600 px) and (max-width: 1920px)  {
 
 textarea.form-control {
-    height: 350px ;
+    height: 300px ;
 }
 
 
 }
 
-@media (min-width: 1536px)  {
 
-textarea.form-control {
-    height: 227px ;
-}
-
-
-}
-
-@media (min-width: 1440px)  {
-
-textarea.form-control {
-    height: 227px ;
-}
-
-
-}
-
-@media (min-width: 1366px)  {
-
-textarea.form-control {
-    height: auto ;
-}
-
-
-}
