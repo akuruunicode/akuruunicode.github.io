@@ -74,6 +74,10 @@
  	color: var(--btntext);
  	border-radius: 5px;
  }
+
+ .textarea.form-control {
+    height: 286px;
+ }
  .form-control {
  	background-color: var(--fcbackground);
  	color: var(--color);
