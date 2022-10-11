@@ -147,6 +147,14 @@
  .homeb {
  	margin: auto 5%;
  }
+
+@media only screen and (max-device-width: 480px) {
+  textarea.form-control {
+    height: auto;
+ }
+ 
+
+    }
  @media screen and (max-width:900px) {
   
  	.row {
