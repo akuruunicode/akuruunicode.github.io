@@ -162,16 +162,12 @@
  		margin: auto;
  	}
  }
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 1920px) {
     textarea.form-control {
     height: 300px;
  }
 }
 
-@media screen and (min-width: 1700px) {
-    textarea.form-control {
-    height: 340px;
- }
-}
+
 
 
