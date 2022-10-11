@@ -159,3 +159,14 @@
  	}
  }
 
+// Monitores
+
+
+@media (min-width: 1920px) and (max-width: 1080px) {
+
+textarea.form-control {
+    height: 350px ;
+}
+
+
+}
