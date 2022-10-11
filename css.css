@@ -169,6 +169,9 @@
  	.homeb {
  		margin: auto;
  	}
+  textarea.form-control {
+    height: 380px;
+ }
   
  }
 
