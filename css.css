@@ -84,7 +84,7 @@
  	flex-direction: column;
  	display: flex;
  	margin-bottom: 5px;
- 	height: 210px;
+ 
  }
  .form-control:hover {
  	border: 0.1mm solid var(--fcboader);
