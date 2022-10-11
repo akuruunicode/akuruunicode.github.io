@@ -153,6 +153,7 @@
     height: auto;
  }
  
+ 
 
     }
  @media screen and (max-width:900px) {
@@ -169,7 +170,11 @@
  	.homeb {
  		margin: auto;
  	}
+  textarea.form-control {
+    height: 380px;
+}
  }
+
 
 @media (min-width: 1920px) and (max-width: 2560px) {
     textarea.form-control {
