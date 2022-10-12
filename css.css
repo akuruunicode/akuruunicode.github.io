@@ -147,9 +147,6 @@
 	margin: auto 5%;
   }
   
-  .navbar > .container-fluid {
-	width: 1200px;
-  }
   
   @media only screen and (max-width: 480px) {
 	textarea.form-control {
