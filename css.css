@@ -75,13 +75,14 @@
  	border-radius: 5px;
  }
 
+
  textarea.form-control {
     height: 240px;
  }
  .form-control {
  	background-color: var(--fcbackground);
  	color: var(--color);
- 	font-family: noto sans sinhala, Inter, sans-serif;
+ 	font-family: noto sans sinhala,sans-serif;
  	font-size: 18px;
  	border: 0.5mm solid var(--fcboader);
  	border-radius: 5px;
@@ -113,8 +114,8 @@
  	font-family: noto sans sinhala, sans-serif;
  }
  h1 {
- 	font-weight: 150;
- 	font-size: 1rem;
+ 	
+ 	font-size: 1.2rem;
  }
  .h2 {
  	font-weight: 200;
@@ -149,6 +150,9 @@
   textarea.form-control {
     height: 230px;
  }
+ body {
+	font-family:BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
  }
 
 
