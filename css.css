@@ -103,7 +103,7 @@
  .popover {
  	
  	border: 0.5mm solid var(--fcboader);
- 	opacity: .50;
+ 	opacity: .99;
 	
  }
  .row {
