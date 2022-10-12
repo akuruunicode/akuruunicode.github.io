@@ -57,7 +57,7 @@
  	font-family: noto sans sinhala,BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
  	font-weight: 400;
  	background-color: var(--bg);
- 	border-top: #00a2ff 5px solid;
+ 	border-top: #00a2ff 2px solid;
  	font-size: 15px;
  	color: var(--color);
  }
@@ -102,7 +102,8 @@
  .popover {
  	
  	border: 0.5mm solid var(--fcboader);
- 	opacity: .99;
+ 	opacity: .50;
+	
  }
  .row {
  	margin: auto 14%;
@@ -112,11 +113,11 @@
  	font-family: noto sans sinhala, sans-serif;
  }
  h1 {
- 	font-weight: 200;
- 	font-size: 2rem;
+ 	font-weight: 150;
+ 	font-size: 1rem;
  }
  .h2 {
- 	font-weight: 150;
+ 	font-weight: 200;
  	font-size: 8px;
  }
  .mt-3 {
@@ -126,26 +127,22 @@
  p {
  	
  	font-size: 14px;
+	font-weight: 200;
  }
  h2 {
  	font-size: 15px;
+	 font-weight: 200;
  }
  a {
     color: #ffffff;
 }
- .float {
- 	background-color: var(--tgbtn);
- 	position: fixed;
- 	width: 35px;
- 	height: 35px;
- 	bottom: 40px;
- 	right: 40px;
- 	border-radius: 50px;
- 	text-align: center;
- 	border: 2mm solid var(--btnboader);
- }
+
  .homeb {
  	margin: auto 5%;
+ }
+
+ .navbar>.container-fluid {
+	width: 1200px;
  }
 
 @media only screen and (max-width : 480px) {
