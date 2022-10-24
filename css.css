@@ -126,11 +126,11 @@
   }
   .h2 {
 	
-	font-size: 8px;
+	font-size: 1.1rem;
   }
 .h3 {
 	
-	font-size: 8px;
+	font-size: 1.2rem;
   }
   .mt-3 {
 	font-size: 12px;
@@ -140,8 +140,10 @@
 	font-weight: 400;
   }
   h2 {
-	font-size: 15px;
-	font-weight: 200;
+	font-size: 1.1rem;
+  }
+h3 {
+	font-size: 1.2rem;
   }
   a {
 	color: #ffffff;
