@@ -31,7 +31,7 @@ function myFunction() {
     let onpageLoad = localStorage.getItem("theme") || "";
     let element = document.body;
     element.classList.add("onpageLoad");
-    document.getElementById("theme").textContent ='akuru';
+    document.getElementById("theme").textContent = "";
       localStorage.getItem("theme") || "light";
   })();
   
