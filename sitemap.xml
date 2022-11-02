@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>http://unicode.madusanka.net/</loc>
+  <loc>https://unicode.madusanka.net/</loc>
   <priority>0.1</priority>
   <lastmod>2022-06-18</lastmod>
 </url>
 <url>
-  <loc>http://unicode.madusanka.net/type</loc>
+  <loc>https://unicode.madusanka.net/type</loc>
   <priority>0.1</priority>
   <lastmod>2022-06-18</lastmod>
 </url>
