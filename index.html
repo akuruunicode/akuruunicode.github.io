@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Unicode to FMAbaya - Real Time Sinhala To Unicode Converter</title>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="media/favicon.png" rel="shortcut icon">
-    <meta charset="utf-8">
-    <meta content="True" name="HandheldFriendly">
-    <meta content="#303134" name="theme-color">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="style/css.css">
-  </head>
-  <nav class="navbar navbar-dark bg-dark ">
+<head>
+  <title>Unicode to FMAbaya - Real Time Sinhala To Unicode Converter</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="media/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/css.css">
+</head>
+<body onload="converter.unicode.focus();">
+  <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="media/logo.webp" alt="sinhalaunicode" width="40" height="40" class="d-inline-block align-text-top">
@@ -21,40 +20,35 @@
       </button>
       <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
-          <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel"> Sinhala Unicode Converter </h3>
+          <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Sinhala Unicode Converter</h3>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item md ">
-              <a class="nav-link" href="https://akuruunicode.github.io/"> Unicode To FM  </a>
+            <li class="nav-item md">
+              <a class="nav-link" href="https://akuruunicode.github.io/">Unicode To FM</a>
             </li>
-           <li class="nav-item md ">
-              <a class="nav-link" href="https://akuruunicode.github.io/type">Singlish Typing </a>
+            <li class="nav-item md">
+              <a class="nav-link" href="https://akuruunicode.github.io/type">Singlish Typing</a>
             </li>
-            
             <hr>
             <div class="form-check form-switch">
               <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onclick="themeToggle()">
               <label class="form-check-label" for="flexSwitchCheckChecked">Switch To Darkmode/Lightmode</label>
             </div>
             <hr>
-             <li class="nav-item md ">
-              <a class="nav-link" href="https://github.com/akuruunicode/"> Github </a>
-              </li>
-            
-  
+            <li class="nav-item md">
+              <a class="nav-link" href="https://github.com/akuruunicode/">Github</a>
+            </li>
             <hr>
-            <p> Akuru Font Sinhala Unicode Translator is an open source web application that supports Sri Lankan language. It provides a dark theme and a light theme and provides a modern interface so that you can quickly translate Unicode. <br><br> Code licensed GNU-AGPL-3.0 <br> Currently v2.2 </p>
+            <p>Akuru Font Sinhala Unicode Translator is an open source web application that supports Sri Lankan language. It provides a dark theme and a light theme and provides a modern interface so that you can quickly translate Unicode.<br><br>Code licensed GNU-AGPL-3.0<br>Currently v2.2</p>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <body onload="javascript:converter.unicode.focus();">
-    <br>
+    </nav>
     <div class="container-fluid mt-2">
       <div class="row">
-        <div class="col-md-12 ">
+        <div class="col-md-12">
           <h1>Unicode to FMAbaya</h1>
           <hr>
         </div>
@@ -63,20 +57,13 @@
       <form id="converter" name="converter">
         <div class="row">
           <div class="col-md-12">
-            <span></span>
-            
-              <span>Unicode</span>
-            
+            <span>Unicode</span>
             <textarea class="form-control shadow-none" name="unicode" onclick="startText();" onkeyup="startText();" onselect="startText();" rows="7" placeholder="Type or paste Sinhala Unicode text here"></textarea>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <span></span>
-            
-              <span>Font</span>
-            
-            <span></span>
+            <span>Font</span>
             <textarea class="form-control shadow-none" id="abhaya" name="abhaya" rows="7" style="font-family:'FMAbhaya X', FMAbhaya, sans-serif!important;" placeholder="පරිවර්තනය"></textarea>
             <input class="btn float-end mt-1" data-toggle="popover" data-trigger="focus" type="reset" value="Reset">
             <input class="btn mt-1" data-bs-content="Copied to clipboard." data-toggle="popover" id="copy" onclick="copyText()" type="button" value="Copy">
@@ -87,25 +74,23 @@
       <div class="row">
         <div class="col-md-12">
           <h2>Sinhala Fonts Converter</h2>
-          <p>
-            Unicode to FMAbaya converter Is 100% Privacy Protected. <br> Unicode converter can translate Sinhala words to FM-Malithi, FM-Gemunu,FM-Bindumathi, FM-Samantha, FM-Gagani, FM-Sandhyanee, FM-Gagani and Any Sinhala Fonts. ASCII and enter Unicode in iskolapotha format. You Can Convert To Singlish To Sinhala In Our Singlish Type Page. For Use Again This Service Bookmark This Page Press Ctrl+D.
-          </p>
+          <p>Unicode to FMAbaya converter Is 100% Privacy Protected.<br>Unicode converter can translate Sinhala words to FM-Malithi, FM-Gemunu, FM-Bindumathi, FM-Samantha, FM-Gagani, FM-Sandhyanee, FM-Gagani and Any Sinhala Fonts. ASCII and enter Unicode in iskolapotha format. You Can Convert To Singlish To Sinhala In Our Singlish Type Page. For Use Again This Service Bookmark This Page Press Ctrl+D.</p>
         </div>
       </div>
     </div>
-    <footer class=" bg-dark mt-3">
-      <div class="container-fluid"></div>
-      <div class="row">
-        <div class="col-md-12 text-center text-white my-3">
-          <p>&copy; Designed and built the <a href="https://github.com/xzunk" target="_blank" rel="noopener noreferrer"> Madusanka </a> with the help of our contributors. </p>
+    <footer class="bg-dark mt-3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 text-center text-white my-3">
+            <p>&copy; Designed and built the <a href="https://github.com/xzunk" target="_blank" rel="noopener noreferrer">Madusanka</a> with the help of our contributors.</p>
+          </div>
         </div>
       </div>
     </footer>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js"></script>
-    <script defer src="js/fm.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" defer></script>
+    <script src="js/fm.js" defer></script>
     <script src="js/dark.js" defer></script>
   </body>
 </html>
