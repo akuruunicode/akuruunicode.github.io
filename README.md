@@ -8,7 +8,7 @@ Font Sinhala Unicode Translator is an open source web application that supports 
 
 ## What's included?
 
-* Sinhala Typeing
+* Sinhala Typing
 * Dark Or Light Mode
 * Nato Fonts Supported UI
 * Unicode To Abaya
